@@ -1,0 +1,5 @@
+name: Passing Module
+type: module
+description: Used to demonstrate drupal-check.
+core: 8.x
+php: 7.x
