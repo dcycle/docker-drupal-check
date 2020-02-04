@@ -1,5 +1,5 @@
 set -e
-docker pull node
+docker pull dcycle/drupal:8drush9
 docker pull dcycle/drupal-check:1
 docker build -t local-dcycle-drupal-check-image .
 
