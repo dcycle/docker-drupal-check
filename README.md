@@ -8,9 +8,9 @@ For example:
 
     docker run --rm \
       -v $(pwd)/examples/passing_module:/var/www/html/modules/passing_module \
-      dcycle/drupal-check:1 passing_module
+      dcycle/drupal-check:1.2019-12-30-21-59-43-UTC passing_module
     docker run --rm \
       -v $(pwd)/examples/failing_module:/var/www/html/modules/failing_module \
-      dcycle/drupal-check:1 failing_module
+      dcycle/drupal-check:1.2019-12-30-21-59-43-UTC failing_module
 
 See [this project on the Docker Hub](https://hub.docker.com/r/dcycle/drupal-check/).
