@@ -1,6 +1,7 @@
 [![CircleCI](https://circleci.com/gh/dcycle/docker-drupal-check.svg?style=svg)](https://circleci.com/gh/dcycle/docker-drupal-check)
 
-**Note, as of Feb. 4, 2020, please use tag 1.2019-12-30-21-59-43-UTC until [this issue](https://github.com/mglaman/drupal-check/issues/131) is resolved.**
+**~Note, as of May 11, 2020, please use tag 1.2019-12-30-21-59-43-UTC until [this issue](https://github.com/mglaman/drupal-check/issues/167) is resolved.~**
+**~Note, as of Feb. 4, 2020, please use tag 1.2019-12-30-21-59-43-UTC until [this issue](https://github.com/mglaman/drupal-check/issues/131) is resolved.~**
 
 Check Drupal code with [Drupal Check](https://github.com/mglaman/drupal-check).
 
