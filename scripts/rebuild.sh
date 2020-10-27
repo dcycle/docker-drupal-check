@@ -16,6 +16,8 @@ else
   source "$CREDENTIALS";
 fi
 
+./test.sh
+
 PROJECT=drupal-check
 DATE=`date '+%Y-%m-%d-%H-%M-%S-%Z'`
 MAJORVERSION='1'
