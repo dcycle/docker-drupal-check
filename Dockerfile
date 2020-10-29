@@ -1,9 +1,10 @@
 FROM dcycle/drupal:8drush
 
-RUN curl -O -L https://github.com/mglaman/drupal-check/releases/latest/download/drupal-check.phar && \
-  mv drupal-check.phar /usr/local/bin/drupal-check && \
-  chmod +x /usr/local/bin/drupal-check
+RUN export COMPOSER_MEMORY_LIMIT=-1 && composer require \
+  mglaman/drupal-check
+
+RUN find . -name drupal-check
 
 WORKDIR /var/www/html/modules
 
-ENTRYPOINT [ "/usr/local/bin/drupal-check" ]
+ENTRYPOINT [ "/var/www/html/vendor/bin/drupal-check" ]
