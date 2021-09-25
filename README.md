@@ -1,5 +1,7 @@
 [![CircleCI](https://circleci.com/gh/dcycle/docker-drupal-check.svg?style=svg)](https://circleci.com/gh/dcycle/docker-drupal-check)
 
+**This project is no longer maintained and has been replaced by http://github.com/dcycle/docker-phpstan-drupal**
+
 Notes
 -----
 
